@@ -34,6 +34,9 @@ sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machi
 
 brew cask install minikube
 
+# kubetail
+brew tap johanhaleby/kubetail && brew install kubetail
+
 # Tunes
 brew cask install spotify
 
