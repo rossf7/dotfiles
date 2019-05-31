@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
-
 # Make sure we’re using the latest Homebrew.
 brew update
 
@@ -9,11 +7,12 @@ brew update
 brew upgrade
 
 # Use zsh
-brew install zsh
+brew install zsh zsh-completions
 
 # Dev tools
 brew install git
 brew install jq
+brew install yq
 
 # GUI dev tools
 brew install macvim
@@ -26,13 +25,6 @@ brew cask install docker
 
 # kubectl
 brew install kubernetes-cli
-
-# minikube - xhyve driver needs root owner and uid
-brew install docker-machine-driver-xhyve
-sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
-sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
-
-brew cask install minikube
 
 # Tunes
 brew cask install spotify

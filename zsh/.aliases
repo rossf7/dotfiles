@@ -1,0 +1,5 @@
+alias k=kubectl
+alias kns=kubens
+alias kctx=kubectx
+
+alias sourcetree='open -a SourceTree'

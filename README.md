@@ -1,10 +1,11 @@
 # dotfiles
 
-## Install Homebrew formulae
+Running [oh-my-zsh] on macOS.
 
-When setting up a new Mac, you may want to install some common Homebrew formulae (after installing Homebrew, of course):
+## Installation
 
+```bash
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-./brew.sh
-```
-Some of the functionality of these dotfiles depends on formulae installed by brew.sh.
+
+[oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
