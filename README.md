@@ -1,19 +1,20 @@
 # dotfiles
 
-Running [oh-my-zsh] on macOS.
+Running [oh-my-zsh] on macOS using [homebrew].
 
 ## Installation
 
-- Brew install
+- Install components with [homebrew].
+
+```bash
+./brew.sh
+```
+
+- Setup shell.
 
 ```bash
 ./install.sh
 ```
 
-- Install oh-my-zsh
-
-```bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-```
-
+[homebrew]: https://brew.sh/
 [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
