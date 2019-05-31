@@ -29,6 +29,7 @@ brew install dep
 # Kubernetes
 brew install kubernetes-cli
 brew install kubernetes-helm
+brew install kubectx
 
 # Tunes
 brew cask install spotify
