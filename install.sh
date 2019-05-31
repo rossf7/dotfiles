@@ -11,3 +11,6 @@ ln -sf ~/.dotfiles/zsh/.zshrc ~/.zshrc
 # Create git symlinks
 ln -sf ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -sf ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
+
+# Create vim symlinks
+ln -sf ~/.dotfiles/vim/.vimrc ~/.vimrc

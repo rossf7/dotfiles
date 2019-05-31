@@ -1,8 +1,9 @@
 # dotfiles
 
 - Running [oh-my-zsh] with [spaceship-prompt] on macOS using [homebrew].
-- Go installed using [gvm].
-- kubectl plugins managed using [krew].
+- Go installed with [gvm].
+- kubectl plugins managed with [krew].
+- Vim plugins managed with [pathogen] using [solarized] theme.
 
 ## Installation
 
@@ -23,6 +24,15 @@ $ ./install.sh
 ```bash
 $ git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 $ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+```
+- Install [pathogen] and plugins.
+
+```bash
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
 ```
 
 - Install [gvm].
@@ -49,4 +59,6 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/bins
 [homebrew]: https://brew.sh/
 [krew]: https://github.com/kubernetes-sigs/krew
 [oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
+[pathogen]: https://github.com/tpope/vim-pathogen
+[solarized]: https://github.com/altercation/vim-colors-solarized
 [spaceship-prompt]: https://github.com/denysdovhan/spaceship-prompt 
