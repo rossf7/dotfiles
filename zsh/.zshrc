@@ -1,6 +1,6 @@
 # --- Plugins
 
-plugins=(git sudo zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git sudo)
 
 # --- Source 
 source $ZSH/oh-my-zsh.sh
