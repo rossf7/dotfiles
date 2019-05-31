@@ -23,8 +23,12 @@ brew cask install keepassx
 # Docker for Mac
 brew cask install docker
 
-# kubectl
+# Golang
+brew install dep
+
+# Kubernetes
 brew install kubernetes-cli
+brew install kubernetes-helm
 
 # Tunes
 brew cask install spotify
