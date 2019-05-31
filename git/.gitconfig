@@ -1,0 +1,22 @@
+[alias]
+  bd = branch -d   
+  ci = commit
+  co = checkout
+  cob = checkout -b
+  df = diff
+  f = fetch -p    
+  p = push
+  st = status
+
+[core]
+    excludesfile = ~/.gitignore
+
+[credential]
+	helper = osxkeychain
+
+[github]
+	user = rossf7
+
+[user]
+	name = Ross Fairbanks
+	email = ross@giantswarm.io
