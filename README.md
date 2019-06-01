@@ -45,6 +45,12 @@ bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/bins
 ./krew.sh
 ```
 
+## Keyboard
+
+- Remap caps lock.
+
+![Remap Capslock](/images/remap_capslock.png)
+
 [gvm]: https://github.com/moovweb/gvm
 [homebrew]: https://brew.sh/
 [krew]: https://github.com/kubernetes-sigs/krew
