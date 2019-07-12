@@ -11,6 +11,7 @@ brew install zsh zsh-completions
 
 # Dev tools
 brew install git
+brew install hub
 brew install jq
 brew install yq
 
