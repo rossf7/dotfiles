@@ -9,7 +9,7 @@
   st = status
 
 [core]
-    excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore_global
 
 [credential]
 	helper = osxkeychain
@@ -19,4 +19,10 @@
 
 [user]
 	name = Ross Fairbanks
-	email = ross@giantswarm.io
+	email = ross@rossfairbanks.com
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
