@@ -2,4 +2,6 @@ alias k=kubectl
 alias kns=kubens
 alias kctx=kubectx
 
+alias opsctl='/Users/rossf7/.run_with_creds opsctl'
+
 alias sourcetree='open -a SourceTree'
