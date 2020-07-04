@@ -3,9 +3,12 @@
   ci = commit
   co = checkout
   cob = checkout -b
+  com = checkout master
   df = diff
   f = fetch -p    
+  fo= fetch origin
   p = push
+  plom = pull origin master
   st = status
 
 [core]
