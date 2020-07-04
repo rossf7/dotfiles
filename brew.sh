@@ -11,8 +11,11 @@ brew install zsh zsh-completions
 
 # Dev tools
 brew install git
+brew install gnu-sed
 brew install hub
 brew install jq
+brew install postgresql
+brew install tmate
 brew install yq
 
 # GUI dev tools
@@ -24,12 +27,11 @@ brew cask install keepassx
 # Docker for Mac
 brew cask install docker
 
-# Golang
-brew install dep
-
 # Kubernetes
+brew install kind
 brew install kubernetes-cli
 brew install kubernetes-helm
+brew install kops
 brew install kubectx
 
 # Tunes
