@@ -16,6 +16,7 @@ brew install hub
 brew install jq
 brew install postgresql
 brew install tmate
+brew install tmux
 brew install yq
 
 # GUI dev tools

@@ -14,3 +14,6 @@ ln -sf ~/.dotfiles/git/.gitignore_global ~/.gitignore_global
 
 # Create vim symlinks
 ln -sf ~/.dotfiles/vim/.vimrc ~/.vimrc
+
+# Create tmux symlinks
+ln -sf ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
