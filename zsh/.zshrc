@@ -1,7 +1,5 @@
 # --- Plugins
 
-plugins=(kubectl)
-
 # --- Theme
 ZSH_THEME="spaceship"
 SPACESHIP_PROMPT_ORDER=(time dir git kubecontext line_sep)
