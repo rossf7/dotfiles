@@ -1,0 +1,16 @@
+[directory]
+format	= "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+format = '\[[$symbol$branch]($style)\]'
+symbol = "🌱 "
+
+[kubernetes]
+disabled = false
+format = '[$context$namespace\]'
+
+[package]
+disabled = true
+
+[rust]
+format = "$symbol"
