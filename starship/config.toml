@@ -7,7 +7,7 @@ symbol = "🌱 "
 
 [kubernetes]
 disabled = false
-format = '[$context$namespace\]'
+format = '[$context \($namespace\)](green)'
 
 [package]
 disabled = true
