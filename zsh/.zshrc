@@ -7,7 +7,7 @@ source <(helm completion zsh)
 source <(kubectl completion zsh)
 
 # gvm for managing go versions
-[[ -s "/Users/ross/.gvm/scripts/gvm" ]] && source "/Users/ross/.gvm/scripts/gvm"
+[[ -s "~/.gvm/scripts/gvm" ]] && source "~/.gvm/scripts/gvm"
 
 # --- Theme
 eval "$(starship init zsh)"
