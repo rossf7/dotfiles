@@ -58,7 +58,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 [gvm]: https://github.com/moovweb/gvm
 [homebrew]: https://brew.sh/
 [krew]: https://github.com/kubernetes-sigs/krew
-[oh-my-zsh]: https://github.com/robbyrussell/oh-my-zsh
+[oh-my-zsh]: https://github.com/ohmyzsh/ohmyzsh/
 [pathogen]: https://github.com/tpope/vim-pathogen
 [solarized]: https://github.com/altercation/vim-colors-solarized
 [starship-prompt]: https://starship.rs/
