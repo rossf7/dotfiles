@@ -6,37 +6,33 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
-# Use zsh
-brew install zsh zsh-completions
+# Add cask support
+brew tap homebrew/cask-versions
 
 # Dev tools
+brew install gh
 brew install git
-brew install gnu-sed
-brew install hub
 brew install jq
-brew install postgresql
-brew install tmate
-brew install tmux
 brew install yq
+brew install tmux
 
 # GUI dev tools
 brew install macvim
-brew cask install iterm2
-brew cask install sourcetree
-brew cask install keepassx
-
-# Docker for Mac
-brew cask install docker
+brew install iterm2
+brew install sourcetree
+brew install visual-studio-code
 
 # Kubernetes
 brew install kind
 brew install kubernetes-cli
-brew install kubernetes-helm
-brew install kops
+brew install krew
+brew install helm
 brew install kubectx
 
-# Tunes
-brew cask install spotify
+# oh-my-zsh
+brew install starship
+brew tap homebrew/cask-fonts
+brew install font-hack-nerd-font
 
 # Remove outdated versions from the cellar.
 brew cleanup

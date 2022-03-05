@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Create zsh symlinks
 ln -sf ~/.dotfiles/zsh/.aliases ~/.aliases
@@ -17,3 +17,7 @@ ln -sf ~/.dotfiles/vim/.vimrc ~/.vimrc
 
 # Create tmux symlinks
 ln -sf ~/.dotfiles/tmux/.tmux.conf ~/.tmux.conf
+
+# Create starship symlinks
+mkdir -p ~/.config
+ln -sf ~/.dotfiles/starship/config.toml ~/.config/starship.toml

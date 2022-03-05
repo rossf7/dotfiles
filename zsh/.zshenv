@@ -7,3 +7,4 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 export PATH="/usr/local/sbin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+. "$HOME/.cargo/env"

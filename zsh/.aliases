@@ -1,16 +1,7 @@
-alias helmg="helm -n giantswarm"
 alias helmk="helm -n kube-system"
-alias helmm="helm -n monitoring"
-
-alias helm2gs="helm2 --tiller-namespace giantswarm"
 
 alias k="kubectl"
-alias kg="kubectl -n giantswarm"
 alias kk="kubectl -n kube-system"
-alias kd="kubectl -n draughtsman"
-alias km="kubectl -n monitoring"
-
-alias opsctl='/Users/rossf7/.run_with_creds opsctl'
 
 alias sed=gsed
 

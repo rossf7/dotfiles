@@ -3,7 +3,7 @@ execute pathogen#infect()
 set number
 
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 
 set history=100         " keep 100 lines of command line history
